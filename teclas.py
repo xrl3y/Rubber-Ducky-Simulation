@@ -3,6 +3,8 @@ import time
 import os
 import shutil
 import subprocess
+import tkinter as tk
+from tkinter import messagebox
 
 # Espera un momento antes de comenzar
 time.sleep(2)
@@ -92,8 +94,20 @@ subprocess.run([destination_path])
 
 
 
+def mostrar_alerta():
+    root = tk.Tk()
+    root.title("Alerta")
+    root.geometry("400x100")
+    
+    label = tk.Label(root, text="Terminal Abierta ;) HACKEADO", font=("Arial", 12))
+    label.pack(pady=20)
 
+    # Configura la ventana para que se cierre después de 5 segundos (5000 ms)
+    root.after(5000, root.destroy)
 
+    root.mainloop()
+
+mostrar_alerta()
 
 
 
