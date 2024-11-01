@@ -6,7 +6,7 @@ import subprocess
 import tkinter as tk
 from tkinter import messagebox
 
-# Espera un momento antes de comenzar
+# Wait a moment before start 
 time.sleep(2)
 
 # Simula la pulsación de Ctrl + Esc para abrir el menú de búsqueda
