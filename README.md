@@ -15,7 +15,9 @@ Es importante tener en cuenta que debemos desactivar el Control de Cuentas de Us
 
 Esta configuración permitirá que el archivo `teclas.py` se ejecute sin restricciones de permisos.
 
-![image](https://github.com/user-attachments/assets/59126bcb-c0c4-48ff-81c1-20f607277a46)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/59126bcb-c0c4-48ff-81c1-20f607277a46" alt="Description of image">
+</div>
 
 ## Instrucciones de Uso (Continuación)
 
@@ -43,3 +45,8 @@ Finalmente, insertaremos la USB en la máquina de la víctima y esperaremos el a
 
 
 Recuerda reemplazar `IPAtacante` y `PuertoAtacante` con los valores correspondientes. También 
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+
+Author: xrl3y
