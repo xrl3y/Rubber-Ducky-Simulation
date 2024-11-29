@@ -23,6 +23,30 @@ Esta configuración permitirá que el archivo `teclas.py` se ejecute sin restric
 
 Una vez desactivadas las restricciones de UAC y editado el código con los tiempos a nuestra conveniencia, procederemos a convertir el código en un ejecutable utilizando **PyInstaller**. 
 
+# Conversión de teclas.py a un archivo .exe
+
+Este proyecto incluye el archivo `teclas.py`, el cual puedes convertir en un ejecutable (.exe) utilizando `PyInstaller`. Sigue los pasos a continuación para realizar la conversión:
+
+## Requisitos
+1. Asegúrate de tener instalado Python 3 en tu sistema.
+2. Instala PyInstaller ejecutando el siguiente comando en tu terminal:
+
+   ```bash
+   pip install pyinstaller
+Instrucciones
+Descarga o clona este repositorio para obtener el archivo teclas.py.
+
+Abre un terminal en el directorio donde se encuentra el archivo teclas.py. Si estás utilizando Visual Studio Code, puedes abrir el terminal integrado con Ctrl + `.
+
+Ejecuta el siguiente comando para convertir el script en un archivo ejecutable (.exe) y evitar que se abra una consola interactiva:
+
+```
+pyinstaller --onefile --noconsole teclas.py
+```
+Resultado
+Una vez que el comando haya terminado de ejecutarse, encontrarás el archivo ejecutable en la carpeta dist que se crea automáticamente en el directorio del proyecto.
+El archivo ejecutable estará listo para ejecutarse en sistemas operativos Windows.
+
 Luego, en nuestra máquina atacante, crearemos el payload con el siguiente comando:
 
 ```bash
