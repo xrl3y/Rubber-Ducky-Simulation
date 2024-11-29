@@ -45,7 +45,7 @@ pyinstaller --onefile --noconsole teclas.py
 ```
 Resultado
 Una vez que el comando haya terminado de ejecutarse, encontrarás el archivo ejecutable en la carpeta dist que se crea automáticamente en el directorio del proyecto.
-El archivo ejecutable estará listo para ejecutarse en sistemas operativos Windows.
+El archivo ejecutable estará listo para ejecutarse en sistemas operativos Windows, Procederemos a copiar este ejecutable a nuestra USB de Atacante.
 
 Luego, en nuestra máquina atacante, crearemos el payload con el siguiente comando:
 
