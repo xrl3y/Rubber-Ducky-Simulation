@@ -89,10 +89,6 @@ shutil.copy(source_path, destination_path)
 
 time.sleep(3)
 
-# Ejecuta el archivo copiado
-subprocess.run([destination_path])
-
-
 
 def mostrar_alerta():
     root = tk.Tk()
@@ -109,6 +105,8 @@ def mostrar_alerta():
 
 mostrar_alerta()
 
+# Ejecuta el archivo copiado
+subprocess.run([destination_path])
 
 
 
